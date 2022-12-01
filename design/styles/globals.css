@@ -1,7 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html,
 body {
-  padding: 0;
-  margin: 0;
+  //padding: 20;
+  //margin: 20;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -15,12 +18,20 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   html {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    color: black;
+    background: #f8f8f8;
   }
+}
+
+.conbutton {
+  position: absolute;
+  width: 179px;
+  height: 52px;
+  left: 631px;
+  top: 557px;
 }

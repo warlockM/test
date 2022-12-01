@@ -127,3 +127,56 @@
     filter: invert(1);
   }
 }
+
+
+/* Transforming your school, into a holistic development place. */
+
+.headline {
+position: absolute;
+width: 939px;
+height: 115px;
+left: 251px;
+top: 228px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 56px;
+line-height: 89.5%;
+/* or 50px */
+
+text-align: center;
+
+color: #1E3888;
+}
+
+.alttext {
+  position: absolute;
+width: 507px;
+height: 40px;
+left: 467px;
+top: 398px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 109.02%;
+/* or 20px */
+
+text-align: center;
+letter-spacing: -0.025em;
+
+color: #1E3888;
+}
+
+/* NAVBAR */
+
+
+.navbar {
+position: absolute;
+width: 1166px;
+height: 82px;
+left: 137px;
+top: 58px;
+}
