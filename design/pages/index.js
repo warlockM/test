@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <h1 className="text-5xl text-[#1E3888] font-bold m-11 text-center letter-spacing: -0.05em underline decoration-wavy decoration-slate-100 offset-8">
+      <h1 className="text-5xl text-[#1E3888] font-bold  m-20 mt-20 text-center letter-spacing: -0.05em underline decoration-wavy decoration-slate-100 offset-8">
        Empowering Minds, Transforming Lives
       </h1>
 
