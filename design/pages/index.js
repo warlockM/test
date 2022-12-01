@@ -27,9 +27,12 @@ export default function Home() {
       </h3>
 
       <div class="m-10 flex place-content-center space-x-6 text-xl font-bold text-[#1E3888]">
-        <div>Counseling ▪ </div>
-        <div> Therapy ▪ </div>
-        <div> Wellness ▪ </div>
+        <div>Counseling</div>
+        <div>▪</div>
+        <div>Therapy</div>
+        <div>▪</div>
+        <div>Wellness</div>
+        <div>▪</div>
         <div> Lifeskill</div>
       </div>
 
