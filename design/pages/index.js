@@ -21,13 +21,12 @@ export default function Home() {
       >
         Empowering Minds, Transforming Lives
       </h1>
-      <div class=" bg-slate-100 p-11">
+      <div class="mx-auto bg-slate-50 p-11 border-blue-200 border-2 w-1/2 relative rounded-md">
         <h3 class="text-slate-500 text-center font-bold">
           Heal100 is an Initiative that cater to the allround development of
           young children<span class="block"></span> and address their mental
           wellness needs
         </h3>
-
         <div class="m-10 flex place-content-center space-x-6 text-xl font-bold text-[#1E3888]">
           <div>Counseling</div>
           <div>▪</div>
@@ -37,7 +36,6 @@ export default function Home() {
           <div>▪</div>
           <div> Lifeskill</div>
         </div>
-
         <div class="flex place-content-center space-x-3">
           <Link href="/connect">
             <button
@@ -58,7 +56,7 @@ export default function Home() {
         </div>
       </div>
 
-      <p class="place-content-center text-3xl text-[#1E3888] font-bold mb-8 mx-auto mt-8 text-center letter-spacing: -0.05em underline decoration-wavy decoration-slate-100 offset-8">
+      <p class="place-content-center text-3xl text-[#1E3888] font-bold mb-8 mx-auto mt-32 text-center letter-spacing: -0.05em underline decoration-wavy decoration-slate-100 offset-8">
         Stress is not going anywhere, <span class="block"></span>but we can be
         better prepared!
       </p>
