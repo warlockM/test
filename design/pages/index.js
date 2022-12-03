@@ -7,25 +7,23 @@ import Link from 'next/link';
 export default function Home() {
 
   return (
-    <div class="container m-auto">
+    <div class="container">
       <Head>
         <title>Heal 100</title>
         <meta name="description" content="Heal100" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <h1
-        className="text-5xl text-[#1E3888] font-bold  m-20 mt-20 text-center 
-      letter-spacing: -0.05em underline decoration-wavy decoration-slate-100 offset-8"
-      >
+      <h1 className="text-5xl text-[#1E3888] font-bold  m-20 mt-20 text-center 
+      letter-spacing: -0.05em underline decoration-wavy decoration-slate-100">
         Empowering Minds, Transforming Lives
       </h1>
-
-      <h3 class="text-slate-500 text-center font-bold">
-        Heal100 is an Initiative that cater to the allround development of young
-        children<span class="block"></span> and address their mental wellness
-        needs
-      </h3>
+      <div class= " bg-slate-50 shadow-sm p-11 shadow-lg">
+        <h3 class="text-slate-500 text-center font-bold">
+          Heal100 is an Initiative that cater to the allround development of young
+          children<span class="block"></span> and address their mental wellness
+          needs
+        </h3>
 
       <div class="m-10 flex place-content-center space-x-6 text-xl font-bold text-[#1E3888]">
         <div>Counseling</div>
@@ -36,27 +34,30 @@ export default function Home() {
         <div>▪</div>
         <div> Lifeskill</div>
       </div>
+
       <div class="flex place-content-center space-x-3">
       <Link href="/connect">
-          <button class="bg-slate-200 text-black text-sm p-4 shadow-md shadow-slate-500 font-bold tracking-wide border-black border-1">
+          <button class="bg-slate-200 text-slate-700 text-sm p-4 shadow-md shadow-slate-500 font-bold tracking-wide
+           border-black border-1 pr-7 pl-7 rounded-lg">
              Learn more
           </button>
         </Link>
         <Link href="/connect">
-          <button class="bg-blue-900 text-white text-sm p-4 shadow-md shadow-slate-500 font-bold tracking-wide">
+          <button class="bg-blue-900 text-white text-sm p-4 shadow-md shadow-slate-500 font-bold 
+          tracking-wide pr-7 pl-7 rounded-lg">
             Connect with us
           </button>
         </Link>
+        </div>
       </div>
-      <div>
+      
+      <div class = "flex place-content-center">
         <p class="text-3xl text-[#1E3888] font-bold  m-20 mt-20 text-center letter-spacing: -0.05em underline decoration-wavy decoration-slate-100 offset-8">
           Stress is not going anywhere, <span class="block"></span>but we can be
           better prepared!
         </p>
       </div >
-      <div class = "flex place-content-center w-screen">
-      <Footer />
-      </div>
+      
     </div>
   );
 }

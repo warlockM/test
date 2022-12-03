@@ -38,11 +38,12 @@ export default function ConnectForm() {
         <h3 class="text-center text-3xl mt-16">
           After you sumit the form, we will contact you shortly!
         </h3>
-
-        <form class="mt-12 flex place-content-center bg-slate-300 p-6 m-4" onSubmit={onSubmitHandler}>
-          <div>
+        <div class="flex place-content-center items-center justify-center">
+        <form
+          class="p-6 m-4"
+          onSubmit={onSubmitHandler}>
             <input
-              class="border-2 border-blue-900 p-4 m-4"
+              class="border-2 border-blue-900 p-4 m-4 rounded-lg"
               type="text"
               placeholder="Name"
               id="name"
@@ -51,7 +52,7 @@ export default function ConnectForm() {
             />
             <span class="block"></span>
             <input
-              class="border-2 border-blue-900 p-4 m-4"
+              class="border-2 border-blue-900 p-4 m-4 rounded-lg"
               type="email"
               placeholder="Email"
               id="email"
@@ -60,7 +61,7 @@ export default function ConnectForm() {
             />
             <span class="block"></span>
             <input
-              class="border-2 border-blue-900 p-4 m-4"
+              class="border-2 border-blue-900 p-4 m-4 rounded-lg"
               type="text"
               placeholder="School Name"
               id="email"
@@ -69,13 +70,14 @@ export default function ConnectForm() {
             />
             <br />
             <button
-              class="m-4 bg-blue-900 text-white text-sm p-4 shadow-lg shadow-slate-500 font-bold tracking-wide"
+              class="m-4 bg-blue-900 text-white text-sm p-4 pr-7 pl-7 shadow-lg shadow-slate-500 font-bold tracking-wide rounded-lg w-fit"
               type="submit"
             >
               Connect
             </button>
-          </div>
         </form>
+        <img src="https://cdni.iconscout.com/illustration/premium/thumb/customer-service-3483600-2912017.png" class="w-1/2" />
+      </div>
       </div>
     );
 }
