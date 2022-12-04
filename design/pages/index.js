@@ -60,19 +60,21 @@ export default function Home() {
         Stress is not going anywhere, <span class="block"></span>but we can be
         better prepared!
       </p>
-      <div class="flex place-content-center space-x-8 m-10 p-7">
+      <div class="flex space-x-8 m-10 p-7 w-1/2 mx-auto bg-slate-50 border-blue-200 border-2 relative rounded-md">
         <p class="text-xl text-slate-500 font-bold">
-          A stressed student is 73% likely to underperform under stress.
+          Studies show that a stressed student is 73% likely to underperform if they are stressed. We aim to offer services that 
+          enhances a student's coping mechanism and help them to be more resilient to stress.
         </p>
         <Image
           src="/School.jpg"
           alt="connect"
-          class="w-1/4 place-content-center"
-          width={500}
-          height={500}
+          class="rounded-md"
+          width={300}
+          height={300}
         />
         <div />
       </div>
+      <Footer />
     </div>
   );
 }
