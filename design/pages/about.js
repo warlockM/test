@@ -6,24 +6,25 @@ export default function AboutUs() {
     return (
       <div class="container">
         <Navbar />
-        <h1 class="text-center text-3xl font-bold pt-8">Who are we?</h1>
+        <h1 class="text-center text-3xl font-bold pt-8 mt-20">Who are we?</h1>
         <div class="m-20 flex space-x-5 place-content-center bg-slate-200">
-        <p class="text-2xl p-4">
-              The School Mental Health Initiative is a comprehensive online
-              platform designed to help schools, educators, and parents support
-              the mental health of students. Our goal is to provide school-based
-              mental health resources, tools, and best practices to ensure that
-              all students have access to the support they need. Additionally,
-              our website provides resources for educators to better understand
-              mental health issues, as well as strategies to help support their
-              students’ emotional wellbeing.
-            </p>
-            <Image src="/School.jpg" width={500} height={500} class="p-4"/>
+          <p class="text-2xl p-4">
+            The School Mental Health Initiative is a comprehensive online
+            platform designed to help schools, educators, and parents support
+            the mental health of students. Our goal is to provide school-based
+            mental health resources, tools, and best practices to ensure that
+            all students have access to the support they need. Additionally, our
+            website provides resources for educators to better understand mental
+            health issues, as well as strategies to help support their students’
+            emotional wellbeing.
+          </p>
+          <Image src="/School.jpg" width={500} height={500} class="p-4" />
         </div>
+        <h1 class="text-center text-3xl font-bold pt-8">Meet our founder</h1>
         <div class="m-20 flex space-x-5 place-content-center bg-slate-200">
-        <Image src="/bhoomikamam.jpg" width={500} height={500} class="p-4"/>
-        <p class="text-2xl p-4">
-        Dr. Bhoomika is a clinical psychologist with 10 years of experience
+          <Image src="/bhoomikamam.jpg" width={500} height={500} class="p-4" />
+          <p class="text-2xl p-4">
+            Dr. Bhoomika is a clinical psychologist with 10 years of experience
             in child mental health. She is an advocate for early intervention
             and prevention of mental health challenges in children. She
             specializes in treating anxiety, depression, ADHD, and other mental
@@ -34,9 +35,9 @@ export default function AboutUs() {
             parenting and mental health. She believes that with appropriate
             guidance and support, children can build resilience and lead
             fulfilling lives.
-            </p>
+          </p>
         </div>
-        <Footer/>
+        <Footer />
       </div>
     );
 }
