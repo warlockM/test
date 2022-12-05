@@ -6,6 +6,7 @@ export default function Footer() {
             <li>FAQ</li>
             <li>Terms and Conditions</li>
             <li>Privacy Policy</li>
+            <li>©2022</li>
           </ul>
         </div>
 

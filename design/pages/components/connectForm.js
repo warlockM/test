@@ -1,6 +1,7 @@
 import Navbar from "./navbar";
 import { useRef } from "react";
 import Footer from "./footer";
+import Button from "./button";
 
 
 export default function ConnectForm() {
@@ -36,13 +37,11 @@ export default function ConnectForm() {
     return (
       <div class="container">
         <Navbar />
-        <h3 class="text-center text-3xl mt-16">
+        <h3 class="text-center text-3xl m-16">
           After you sumit the form, we will contact you shortly!
         </h3>
-        <div class="flex items-center justify-center">
-        <form
-          class="p-6 m-4"
-          onSubmit={onSubmitHandler}>
+        <div class="flex place-content-center m-8 justify-center">
+          <form onSubmit={onSubmitHandler}>
             <input
               class="border-2 border-blue-900 p-4 m-4 rounded-lg"
               type="text"
@@ -51,7 +50,7 @@ export default function ConnectForm() {
               ref={nameRef}
               required
             />
-            <br/>
+            <span class="block">
             <input
               class="border-2 border-blue-900 p-4 m-4 rounded-lg"
               type="email"
@@ -60,7 +59,8 @@ export default function ConnectForm() {
               ref={emailRef}
               required
             />
-            <br/>
+            </span>
+            <span class="block">
             <input
               class="border-2 border-blue-900 p-4 m-4 rounded-lg"
               type="text"
@@ -69,17 +69,14 @@ export default function ConnectForm() {
               ref={schoolRef}
               required
             />
-            <br />
-            <button
-              class="m-4 bg-blue-900 text-white text-sm p-4 pr-7 pl-7 shadow-lg shadow-slate-500 font-bold tracking-wide rounded-lg w-fit"
-              type="submit"
-            >
-              Connect
-            </button>
-        </form>
-        <img src="https://cdni.iconscout.com/illustration/premium/thumb/customer-service-3483600-2912017.png" class="w-1/2" />
-      </div>
-      <Footer />
+            </span>
+            
+            <Button text="Connect" />
+            
+          </form>
+          {/* <img src="https://cdni.iconscout.com/illustration/premium/thumb/customer-service-3483600-2912017.png" /> */}
+        </div>
+        <Footer />
       </div>
     );
 }

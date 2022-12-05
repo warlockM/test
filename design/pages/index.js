@@ -7,11 +7,6 @@ import Image from 'next/image';
 
 export default function Home() {
 
-  function onClickHandler() {
-    const key = 'https://api.airtable.com/v0//CustomerInterest/'
-    console.log(key);
-  }
-
   return (
     <div class="container">
       <Head>
@@ -26,8 +21,8 @@ export default function Home() {
       >
         Empowering Minds, Transforming Lives
       </h1>
-      <div class="mx-auto bg-slate-100 p-11  relative rounded-md">
-        <h3 class="text-slate-500 text-center text-2xl">
+      <div class="mx-auto  p-11  relative rounded-md bg-slate-100">
+        <h3 class="text-[#1E3888] text-center text-2xl">
           Heal100 is an Initiative that cater to the allround development of
           young children<span class="block"></span> and address their mental
           wellness needs
@@ -43,7 +38,7 @@ export default function Home() {
         </div>
         <div class="flex place-content-center space-x-3">
           <Link href="">
-            <button onClick={onClickHandler}
+            <button
               class="bg-slate-200 text-slate-700 text-sm p-4 shadow-md shadow-slate-500 font-bold tracking-wide
            border-black border-1 pr-7 pl-7 rounded-lg"
             >
@@ -70,6 +65,7 @@ export default function Home() {
           Studies show that a stressed student is 73% likely to underperform if they are stressed. We aim to offer services that 
           enhances a student's coping mechanism and help them to be more resilient to stress. Lorem ipsum
         </p>
+        <div class="shrink-0">
         <Image
           src="/School.jpg"
           alt="connect"
@@ -77,6 +73,7 @@ export default function Home() {
           width={300}
           height={300}
         />
+        </div>
         <div />
       </div>
       <Footer />
