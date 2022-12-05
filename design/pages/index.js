@@ -10,7 +10,6 @@ export default function Home() {
   function onClickHandler() {
     const key = 'https://api.airtable.com/v0//CustomerInterest/'
     console.log(key);
-    console.log('\$process.env.AIRTABLE_API_KEY');
   }
 
   return (
