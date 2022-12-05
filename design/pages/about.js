@@ -4,15 +4,11 @@ import Image from 'next/image';
 
 export default function AboutUs() {
     return (
-      <div class="container m-auto">
+      <div class="container">
         <Navbar />
         <h1 class="text-center text-3xl font-bold pt-8">Who are we?</h1>
-        <div class="flex space-x-7">
-          <div class="p-4 bg-slate-200 shadow-lg m-20 float-left place-content-center">
-            <span class="block float-left">
-              <Image class="mr-20" src="/about.jpg" width={320} height={320} />
-            </span>
-            <p class="text-xl">
+        <div class="m-20 flex space-x-5 place-content-center bg-slate-200">
+        <p class="text-2xl p-4">
               The School Mental Health Initiative is a comprehensive online
               platform designed to help schools, educators, and parents support
               the mental health of students. Our goal is to provide school-based
@@ -22,19 +18,12 @@ export default function AboutUs() {
               mental health issues, as well as strategies to help support their
               students’ emotional wellbeing.
             </p>
-          </div>
+            <Image src="/School.jpg" width={500} height={500} class="p-4"/>
         </div>
-        <div class="p-4 bg-slate-200 shadow-lg m-20 float-left place-content-center">
-          <span class="block float-right">
-            <Image
-              class="ml-20"
-              src="/bhoomikamam.jpg"
-              width={320}
-              height={320}
-            />
-          </span>
-          <p class="text-xl m-20">
-            Dr. Bhoomika is a clinical psychologist with 10 years of experience
+        <div class="m-20 flex space-x-5 place-content-center bg-slate-200">
+        <Image src="/bhoomikamam.jpg" width={500} height={500} class="p-4"/>
+        <p class="text-2xl p-4">
+        Dr. Bhoomika is a clinical psychologist with 10 years of experience
             in child mental health. She is an advocate for early intervention
             and prevention of mental health challenges in children. She
             specializes in treating anxiety, depression, ADHD, and other mental
@@ -45,9 +34,9 @@ export default function AboutUs() {
             parenting and mental health. She believes that with appropriate
             guidance and support, children can build resilience and lead
             fulfilling lives.
-          </p>
+            </p>
         </div>
-        <Footer />
+        <Footer/>
       </div>
     );
 }

@@ -14,7 +14,7 @@ export default function Footer() {
             <li  class = "font-bold underline">Social</li>
             <li>Facebook</li>
             <li>Twitter</li>
-            <li>Instagram</li>
+            <li><a href="https://www.instagram.com/dr.bhoomikasachacher/" target="_blank">Instagram</a></li>
             <li>LinkedIn</li>
           </ul>
         </div>
