@@ -21,61 +21,67 @@ export default function Home() {
       >
         Empowering Minds, Transforming Lives
       </h1>
-      <div class="mx-auto  p-11  relative rounded-md bg-slate-100">
-        <h3 class="text-[#1E3888] text-center text-2xl">
-          Heal100 is an Initiative that cater to the allround development of
-          young children<span class="block"></span> and address their mental
-          wellness needs
-        </h3>
-        <div class="m-10 flex place-content-center space-x-6 text-xl font-bold text-[#1E3888]">
-          <div>Counseling</div>
-          <div>▪</div>
-          <div>Therapy</div>
-          <div>▪</div>
-          <div>Wellness</div>
-          <div>▪</div>
-          <div> Lifeskill</div>
-        </div>
-        <div class="flex place-content-center space-x-3">
-          <Link href="">
-            <button
-              class="bg-slate-200 text-slate-700 text-sm p-4 shadow-md shadow-slate-500 font-bold tracking-wide
-           border-black border-1 pr-7 pl-7 rounded-lg"
-            >
-              Learn more
-            </button>
-          </Link>
-          <Link href="/connect">
-            <button
-              class="bg-blue-900 text-white text-sm p-4 shadow-md shadow-slate-500 font-bold 
-          tracking-wide pr-7 pl-7 rounded-lg"
-            >
-              Connect with us
-            </button>
-          </Link>
-        </div>
-      </div>
+      <div class="flex items-center justify-center mx-auto p-11  relative rounded-md  mt-10 bg-gradient-to-r from-blue-200 to-purple-100">
+        <Image src="/Family.jpg" width={400} height={400} class="shrink-0 ml-10" />
+        <div class = "m-10">
+          <h3 class="text-[#1E3888] text-center text-2xl">
+            Heal100 is an Initiative that cater to the allround development of
+            young children<span class="block"></span> and address their mental
+            wellness needs
+          </h3>
 
-      <p class="place-content-center text-3xl text-[#1E3888] font-bold mb-8 mx-auto mt-28 text-center letter-spacing: -0.05em underline decoration-wavy decoration-slate-100 offset-8">
-        Stress is not going anywhere, <span class="block"></span>but we can be
-        better prepared!
-      </p>
-      <div class="flex space-x-8 p-7 bg-slate-100  relative rounded-md">
-        <p class="text-2xl text-slate-500">
-          Studies show that a stressed student is 73% likely to underperform if they are stressed. We aim to offer services that 
-          enhances a student's coping mechanism and help them to be more resilient to stress. Lorem ipsum
-        </p>
-        <div class="shrink-0">
-        <Image
-          src="/School.jpg"
-          alt="connect"
-          class="rounded-md"
-          width={300}
-          height={300}
-        />
+          <div class="m-10 flex place-content-center space-x-6 text-xl font-bold text-[#1E3888]">
+            <div>Counseling</div>
+            <div>▪</div>
+            <div>Therapy</div>
+            <div>▪</div>
+            <div>Wellness</div>
+            <div>▪</div>
+            <div> Lifeskill</div>
+          </div>
+          <div class="flex place-content-center space-x-3">
+            <Link href="">
+              <button
+                class="bg-slate-200 text-slate-700 text-sm p-4 shadow-md shadow-slate-500 font-bold tracking-wide
+           border-black border-1 pr-7 pl-7 rounded-lg hover:bg-white"
+              >
+                Learn more
+              </button>
+            </Link>
+            <Link href="/connect">
+              <button
+                class="bg-blue-700 text-white text-sm p-4 shadow-md shadow-slate-500 font-bold 
+          tracking-wide pr-7 pl-7 rounded-lg hover:bg-blue-900"
+              >
+                Connect with us
+              </button>
+            </Link>
+          </div>
         </div>
-        <div />
-      </div>
+        </div>
+
+        <p class="place-content-center text-3xl text-[#1E3888] font-bold mb-8 mx-auto mt-28 text-center letter-spacing: -0.05em underline decoration-wavy decoration-slate-100 offset-8">
+          Stress is not going anywhere, <span class="block"></span>but we can be
+          better prepared!
+        </p>
+        <div class="flex space-x-8 p-7 bg-slate-100  relative rounded-md bg-gradient-to-r from-purple-200 to-blue-100">
+          <p class="text-2xl text-slate-800 m-20">
+            Studies show that a stressed student is 73% likely to underperform
+            if they are stressed. We aim to offer services that enhances a
+            student's coping mechanism and help them to be more resilient to
+            stress. Lorem ipsum
+          </p>
+          <div class="shrink-0">
+            <Image
+              src="/School.jpg"
+              alt="connect"
+              class="rounded-md m-10"
+              width={300}
+              height={300}
+            />
+          </div>
+          <div />
+        </div>
       <Footer />
     </div>
   );
