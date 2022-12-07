@@ -3,6 +3,7 @@ import Navbar from './components/navbar';
 import Footer from './components/footer';
 import Link from 'next/link';
 import Image from 'next/image';
+import Review from './components/reviews';
 
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
       <Head>
         <title>Heal 100</title>
         <meta name="description" content="Heal100" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
       </Head>
       <Navbar />
       <h1
@@ -30,7 +31,7 @@ export default function Home() {
             wellness needs
           </h3>
 
-          <div class="m-10 flex place-content-center space-x-6 text-xl font-bold text-[#1E3888]">
+          <div class="m-10 flex flex-wrap place-content-center space-x-6 text-xl font-bold text-[#1E3888]">
             <div>Counseling</div>
             <div>▪</div>
             <div>Therapy</div>
@@ -53,7 +54,7 @@ export default function Home() {
                 class="bg-blue-700 text-white text-sm p-4 shadow-md shadow-slate-500 font-bold 
           tracking-wide pr-7 pl-7 rounded-lg hover:bg-blue-900"
               >
-                Connect with us
+                Upgrade Your School 
               </button>
             </Link>
           </div>
@@ -81,6 +82,9 @@ export default function Home() {
             />
           </div>
           <div />
+        </div>
+        <div class="flex place-content-center">
+          <Review />
         </div>
       <Footer />
     </div>

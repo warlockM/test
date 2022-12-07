@@ -3,4 +3,9 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = 
+  {
+    images: {
+      domains: ['v5.airtableusercontent.com'],
+    },
+  };
