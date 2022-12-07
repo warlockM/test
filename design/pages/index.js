@@ -8,7 +8,7 @@ import Image from 'next/image';
 export default function Home() {
 
   return (
-    <div class="container">
+    <div>
       <Head>
         <title>Heal 100</title>
         <meta name="description" content="Heal100" />
@@ -23,7 +23,7 @@ export default function Home() {
       </h1>
       <div class="flex items-center justify-center mx-auto p-11  relative rounded-md  mt-10 bg-gradient-to-r from-blue-200 to-purple-100">
         <Image src="/Family.jpg" width={400} height={400} class="shrink-0 ml-10" />
-        <div class = "m-10">
+        <div>
           <h3 class="text-[#1E3888] text-center text-2xl">
             Heal100 is an Initiative that cater to the allround development of
             young children<span class="block"></span> and address their mental
@@ -60,7 +60,7 @@ export default function Home() {
         </div>
         </div>
 
-        <p class="place-content-center text-3xl text-[#1E3888] font-bold mb-8 mx-auto mt-28 text-center letter-spacing: -0.05em underline decoration-wavy decoration-slate-100 offset-8">
+        <p class="place-content-center text-3xl text-[#1E3888] font-bold mb-8 mx-auto mt-28 text-center letter-spacing: -0.05em underline decoration-wavy decoration-slate-100">
           Stress is not going anywhere, <span class="block"></span>but we can be
           better prepared!
         </p>

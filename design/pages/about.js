@@ -4,11 +4,11 @@ import Image from 'next/image';
 
 export default function AboutUs() {
     return (
-      <div class="container">
+      <div>
         <Navbar />
-        <h1 class="text-center text-[#1E3888] text-3xl font-bold mt-20">Who are we?</h1>
-        <div class="m-20 flex space-x-5 place-content-center bg-slate-200">
-          <p class="text-xl p-4 w-1/2">
+        <h1 class="text-center text-[#1E3888] text-3xl font-bold m-20">Who are we?</h1>
+        <div class="flex space-x-5 place-content-center bg-slate-200">
+          <p class="text-xl p-4 m-10">
             The School Mental Health Initiative is a comprehensive online
             platform designed to help schools, educators, and parents support
             the mental health of students. Our goal is to provide school-based
@@ -18,11 +18,11 @@ export default function AboutUs() {
             health issues, as well as strategies to help support their students’
             emotional wellbeing.
           </p>
-          <Image src="/School.jpg" width={400} height={400} class="p-4" />
+          <Image src="/School.jpg" width={400} height={400} class="p-4"/>
         </div>
-        <h1 class="text-center text-[#1E3888] text-3xl font-bold mt-20">Who are we?</h1>
-        <div class="m-20 flex space-x-5 place-content-center bg-slate-200">
-          <p class="text-xl p-4 w-1/2">
+        <h1 class="text-center text-[#1E3888] text-3xl font-bold m-20">Who are we?</h1>
+        <div class="flex space-x-5 place-content-center bg-slate-200">
+          <p class="text-xl p-4 m-10">
             The School Mental Health Initiative is a comprehensive online
             platform designed to help schools, educators, and parents support
             the mental health of students. Our goal is to provide school-based
@@ -32,26 +32,15 @@ export default function AboutUs() {
             health issues, as well as strategies to help support their students’
             emotional wellbeing.
           </p>
-          <Image src="/School.jpg" width={400} height={400} class="p-4" />
+          <Image src="/School.jpg" width={400} height={400} class="p-4"/>
         </div>
-        <h1 class="text-center text-[#1E3888] text-3xl font-bold mt-20">Who are we?</h1>
-        <div class="m-20 flex space-x-5 place-content-center bg-slate-200">
-          <p class="text-xl p-4 w-1/2">
-            The School Mental Health Initiative is a comprehensive online
-            platform designed to help schools, educators, and parents support
-            the mental health of students. Our goal is to provide school-based
-            mental health resources, tools, and best practices to ensure that
-            all students have access to the support they need. Additionally, our
-            website provides resources for educators to better understand mental
-            health issues, as well as strategies to help support their students’
-            emotional wellbeing.
-          </p>
-          <Image src="/School.jpg" width={400} height={400} class="p-4" />
-        </div>
-        <h1 class="text-center text-3xl font-bold pt-8 text-[#1E3888]">Meet our founder</h1>
-        <div class="m-20 flex space-x-5 place-content-center bg-slate-200">
-          <Image src="/bhoomikamam.jpg" width={400} height={400} class="p-4" />
-          <p class="text-xl p-2 w-1/2">
+        
+        <h1 class="m-20 text-center text-3xl font-bold pt-8 text-[#1E3888]">Meet our founder</h1>
+        <div class="flex space-x-5 place-content-center bg-slate-200">
+          <div class="shrink-0">
+          <Image src="/bhoomikamam.jpg" width={400} height={400} class="p-4"/>
+          </div>
+          <p class="text-xl p-2 m-10">
             <p class="text-5xl font-bold  mb-10">Dr. Bhoomika</p>
             She is a clinical psychologist with 10 years of experience
             in child mental health. She is an advocate for early intervention
