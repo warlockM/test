@@ -1,7 +1,6 @@
 import Navbar from "./navbar";
 import { useRef } from "react";
 import Footer from "./footer";
-import Button from "./button";
 
 
 export default function ConnectForm() {
@@ -35,13 +34,14 @@ export default function ConnectForm() {
     .catch((error) => console.error(error));
     }
     return (
-      <div class="container">
+      <div>
         <Navbar />
         <h3 class="text-center text-3xl m-16">
           After you sumit the form, we will contact you shortly!
         </h3>
-        <div class="flex place-content-center m-8 justify-center">
+        <div class="flex place-content-center">
           <form onSubmit={onSubmitHandler}>
+            <div class="flex flex-col">
             <input
               class="border-2 border-blue-900 p-4 m-4 rounded-lg"
               type="text"
@@ -50,7 +50,6 @@ export default function ConnectForm() {
               ref={nameRef}
               required
             />
-            <span class="block">
             <input
               class="border-2 border-blue-900 p-4 m-4 rounded-lg"
               type="email"
@@ -59,8 +58,6 @@ export default function ConnectForm() {
               ref={emailRef}
               required
             />
-            </span>
-            <span class="block">
             <input
               class="border-2 border-blue-900 p-4 m-4 rounded-lg"
               type="text"
@@ -69,12 +66,13 @@ export default function ConnectForm() {
               ref={schoolRef}
               required
             />
-            </span>
             
-            <Button text="Connect" />
-            
+            <button class="m-4 bg-blue-900 text-white text-sm p-4 pr-7 pl-7 shadow-lg shadow-slate-500 font-bold tracking-wide rounded-lg">
+              Submit
+            </button>
+            </div>
           </form>
-          {/* <img src="https://cdni.iconscout.com/illustration/premium/thumb/customer-service-3483600-2912017.png" /> */}
+          <img src="https://cdni.iconscout.com/illustration/premium/thumb/customer-service-3483600-2912017.png" />
         </div>
         <Footer />
       </div>
