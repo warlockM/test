@@ -7,7 +7,7 @@ export default function Services() {
     return (
       <div>
         <Navbar />
-        <div class="flex space-x-8 mx-auto place-content-center m-20">
+        <div class="flex flex-wrap space-x-8 mx-auto place-content-center m-20">
           <Card          
             heading="Exam Stress Management"
             description="For children under the age of 18"
@@ -19,7 +19,7 @@ export default function Services() {
             image="/laugh.jpg"
           />
         </div>
-        <div class="flex space-x-8 mx-auto place-content-center m-20">
+        <div class="flex flex-wrap space-x-8 mx-auto place-content-center m-20">
           <Card
             heading="Wellness Sessions"
             description="For general awareness and community building"
@@ -31,7 +31,7 @@ export default function Services() {
             image="/laugh.jpg"
           />
         </div>
-        <div class="flex space-x-8 mx-auto place-content-center m-20">
+        <div class="flex flex-wrap space-x-8 mx-auto place-content-center m-20">
           <Card
             heading="Parenting Workshops"
             description="For parents to learn and understand their children better"
@@ -44,7 +44,7 @@ export default function Services() {
           />
           
         </div>
-        <div class="flex space-x-8 mx-auto place-content-center m-20">
+        <div class="flex flex-wrap space-x-8 mx-auto place-content-center m-20">
         <Link href="/connect">
               <button
                 class="bg-blue-700 text-white text-sm p-4 shadow-md shadow-slate-500 font-bold 
