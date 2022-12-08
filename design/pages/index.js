@@ -70,7 +70,7 @@ export default function Home() {
         Stress is not going anywhere, <span class="block"></span>but we can be
         better prepared!
       </p>
-      <div class="flex space-x-8 p-7 bg-slate-100 rounded-md bg-gradient-to-r from-purple-200 to-blue-100">
+      <div class="flex flex-wrap space-x-8 p-7 bg-slate-100 rounded-md bg-gradient-to-r from-purple-200 to-blue-100">
         <p class="text-2xl text-slate-800 m-20">
           Studies show that a stressed student is 73% likely to underperform if
           they are stressed. We aim to offer services that enhances a student's
@@ -89,7 +89,7 @@ export default function Home() {
         <div />
       </div>
       <h1 class="text-5xl text-center">Schools in conversations with</h1>
-      <div class="grid grid-cols-8 gap-0 place-content-center bg-slate-100 relative">
+      <div class="flex flex-wrap place-content-center place-content-center bg-slate-100 relative">
         <Image src="/School.jpg" width={200} height={200}/><br/>
         <Image src="/School.jpg" width={200} height={200}/><br/>
         <Image src="/School.jpg" width={200} height={200}/><br/>
