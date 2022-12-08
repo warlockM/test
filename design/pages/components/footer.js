@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-      <div class="flex space-x-8 bg-slate-600 text-white place-content-center">
+      <div class="flex flex-wrap space-x-8 bg-slate-600 text-white place-content-center">
         <div class="p-4">
           <ul>
             <li>FAQ</li>

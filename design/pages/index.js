@@ -95,7 +95,7 @@ export default function Home() {
         <Image src="/School.jpg" width={200} height={200}/><br/>
         <Image src="/School.jpg" width={200} height={200}/><br/>
       </div>
-      <div class="flex place-content-center">
+      <div class="flex place-content-center flex-wrap">
         <Review />
       </div>
       <Footer />
