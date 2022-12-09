@@ -77,18 +77,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div
-        class="text-5xl font-bold m-20 text-center 
-      letter-spacing: -0.05em underline decoration-wavy decoration-slate-100"
-      >
-        <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
-          Stress is not going away.{" "}
+      
+        <h1 class="text-5xl text-center mt-10 mb-20">
+        Stress is not going anywhere,<span class="block">
+          but we can help you manage it.
         </span>
-        <span class="block"></span>
-        <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
-          But we can help you manage it.
-        </span>
-      </div>
+      </h1>
       <div class="flex flex-wrap space-x-8 place-content-center m-10">
         <div class="p-4">
           <Stats stat="500+" text="Happy Clients" img="/logo.png"/>
