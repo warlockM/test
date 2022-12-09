@@ -4,6 +4,7 @@ import Footer from './components/footer';
 import Link from 'next/link';
 import Image from 'next/image';
 import Review from './components/reviews';
+import Stats from './components/stats';
 
 
 export default function Home() {
@@ -31,7 +32,7 @@ export default function Home() {
           height={400}
           class="shrink-0 rounded-md ring-2 ring-offset-4 mr-10"
         />
-        <div>
+        <div class="m-10">
           <h3 class="text-[#1E3888] text-center text-xl">
             Heal100 is an Initiative that cater to the allround development of
             young children<span class="block"></span> and address their mental
@@ -81,19 +82,29 @@ export default function Home() {
       letter-spacing: -0.05em underline decoration-wavy decoration-slate-100"
       >
         <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
-          Stress is not going away. </span>
-          <span class="block"></span>
-          <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">But we can help
-          you manage it.</span>
+          Stress is not going away.{" "}
+        </span>
+        <span class="block"></span>
+        <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+          But we can help you manage it.
+        </span>
       </div>
-      <div class="flex space-x-8 shadow-md m-10">
-        
-          <p class="text-xl w-3/4 m-10">Studies show that a stressed student is 73% likely to underperform if
-          they are stressed. We aim to offer services that enhances a student's
-          coping mechanism and help them to be more resilient to stress.</p>
+      <div class="flex flex-wrap space-x-8 place-content-center m-10">
+        <div class="p-4">
+          <Stats stat="500+" text="Happy Clients" img="/logo.png"/>
+        </div>
+        <div class="p-4">
+          <Stats stat="2000+" text="Counselings Done" img="/logo.png"/>
+        </div>
+        <div class="p-4">
+          <Stats stat="100+" text="Awareness Sessions" img="/logo.png"/>
+        </div>
+        <div class="p-4">
+          <Stats stat="200+" text="Public Appearances" img="/logo.png"/>
+        </div>
       </div>
       <h1 class="text-5xl text-center mt-10 mb-20">
-        Schools in conversations with
+        Schools in conversation with
       </h1>
       <div class="flex flex-wrap place-content-center space-x-8">
         <Image src="/School.jpg" width={300} height={300} class="shrink-0" />
