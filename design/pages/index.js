@@ -110,7 +110,7 @@ export default function Home() {
         <Image src="/School.jpg" width={300} height={300} class="shrink-0" />
         <br />
       </div>
-      <div class="mt-10 flex place-content-center flex-wrap">
+      <div class="m-10 flex place-content-center flex-wrap">
         <Review />
       </div>
       <Footer />
