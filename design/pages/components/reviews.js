@@ -25,7 +25,7 @@ export default function Review(){
       <div>
         <h1 class="m-10 text-5xl text-center">What people say about us!</h1>
         <ul>
-          <div class="flex place-content-center p-10 space-x-10">
+          <div class="flex flex-wrap place-content-center p-10 space-x-10">
             {reviews.map((review) => (
               <li key={review.id}>
                 <div class="bg-gradient-to-r from-purple-200 to-blue-100 p-5 shadow-md place-content-center rounded-md">
