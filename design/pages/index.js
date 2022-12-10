@@ -18,54 +18,40 @@ export default function Home() {
       </Head>
       <Navbar />
       <div
-        class="text-5xl font-bold m-20 text-center 
-      letter-spacing: -0.05em underline decoration-wavy decoration-slate-100"
+        class="text-5xl font-bold m-10 text-center 
+      letter-spacing: -0.05em"
       >
-        <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+        <span class="bg-clip-text text-slate-800">
           Empowering Minds, Transforming Lives
         </span>
       </div>
-      <div class="flex flex-wrap items-center justify-center relative rounded-md  ">
-        <Image
-          src="/home.png"
-          width={400}
-          height={400}
-          class="shrink-0 rounded-md ring-2 ring-offset-4 mr-10"
-        />
+      <div class="flex flex-wrap items-center justify-center relative rounded-md ">
         <div class="m-10">
-          <h3 class="text-[#1E3888] text-center text-xl">
+          <h3 class="text-slate-500 text-center text-xl mt-10">
             Heal100 is an Initiative that cater to the allround development of
             young children<span class="block"></span> and address their mental
             wellness needs.
           </h3>
 
-          <div class="m-10 flex flex-wrap place-content-center space-x-6 text-xl font-bold text-[#1E3888]">
-            <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+          <div class="m-10 flex flex-wrap place-content-center space-x-6 text-xl font-bold text-slate-500">
+            <span>
               Counseling
             </span>
             <div>▪</div>
-            <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+            <span>
               Therapy
             </span>
             <div>▪</div>
-            <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+            <span>
               Wellness
             </span>
             <div>▪</div>
-            <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
-              {" "}
+            <span>
               Lifeskill
             </span>
           </div>
           <div class="flex place-content-center space-x-3">
-            <Link href="">
-              <button
-                class="bg-slate-200 text-slate-700 text-sm p-4 shadow-md shadow-slate-500 font-bold tracking-wide
-           border-black border-1 pr-7 pl-7 rounded-lg hover:bg-white"
-              >
-                Learn more
-              </button>
-            </Link>
+
             <Link href="/connect">
               <button
                 class="bg-blue-700 text-white text-sm p-4 shadow-md shadow-slate-500 font-bold 
@@ -78,12 +64,12 @@ export default function Home() {
         </div>
       </div>
       
-        <h1 class="text-5xl text-center mt-10 mb-20">
+        <h1 class="text-4xl text-center mt-10 mb-20">
         Stress is not going anywhere,<span class="block">
           but we can help you manage it.
         </span>
       </h1>
-      <div class="flex flex-wrap space-x-8 place-content-center m-10">
+      <div class="grid grid-cols-3 auto-cols-max place-content-center m-10">
         <div class="p-4">
           <Stats stat="500+" text="Happy Clients" img="/logo.png"/>
         </div>
@@ -96,8 +82,14 @@ export default function Home() {
         <div class="p-4">
           <Stats stat="200+" text="Public Appearances" img="/logo.png"/>
         </div>
+        <div class="p-4">
+          <Stats stat="200+" text="Public Appearances" img="/logo.png"/>
+        </div>
+        <div class="p-4">
+          <Stats stat="200+" text="Public Appearances" img="/logo.png"/>
+        </div>
       </div>
-      <h1 class="text-5xl text-center mt-10 mb-20">
+      <h1 class="text-4xl text-center mt-10 mb-20">
         Schools in conversation with
       </h1>
       <div class="flex flex-wrap place-content-center space-x-8">

@@ -24,7 +24,6 @@ export default function Footer() {
           <ul>
             <li class = "font-bold underline">Services</li>
             <li>Schools</li>
-            <li>Corporate</li>
             <li>Individual</li>
           </ul>
         </div>
