@@ -18,8 +18,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <div
-        class="text-5xl font-bold m-10 text-center 
-      letter-spacing: -0.05em"
+        class="text-5xl font-bold m-10 text-center"
       >
         <span class="bg-clip-text text-slate-800">
           Empowering Minds, Transforming Lives
@@ -27,30 +26,22 @@ export default function Home() {
       </div>
       <div class="flex flex-wrap items-center justify-center relative rounded-md ">
         <div class="m-10">
-          <h3 class="text-slate-500 text-center text-xl mt-10">
-            Heal100 is an Initiative that cater to the allround development of
-            young children<span class="block"></span> and address their mental
-            wellness needs.
-          </h3>
 
-          <div class="m-10 flex flex-wrap place-content-center space-x-6 text-xl font-bold text-slate-500">
-            <span>
-              Counseling
-            </span>
-            <div>▪</div>
-            <span>
-              Therapy
-            </span>
-            <div>▪</div>
-            <span>
-              Wellness
-            </span>
-            <div>▪</div>
-            <span>
-              Lifeskill
-            </span>
+          <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+        <div class="md:flex">
+          <div class="md:shrink-0">
+            <img class="h-48 w-full object-cover md:h-full md:w-48" src="laugh.jpg" alt="Modern building architecture"></img>
           </div>
-          <div class="flex place-content-center space-x-3">
+        <div class="p-8">
+      <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats</div>
+            <p class="block mt-1 text-lg leading-tight font-medium text-black">Nurturing minds for impact</p>
+            <p class="mt-2 text-slate-500">Heal100 is an Initiative that cater to the allround development of
+            young children<span class="block"></span> and address their mental
+            wellness needs.</p>
+          </div>
+        </div>
+      </div>
+          <div class=" m-10 flex place-content-center space-x-3">
 
             <Link href="/connect">
               <button
@@ -69,24 +60,27 @@ export default function Home() {
           but we can help you manage it.
         </span>
       </h1>
-      <div class="grid grid-cols-3 auto-cols-max place-content-center m-10">
+
+
+
+      <div class="grid grid-cols-3 md:grid-cols-3 place-content-center m-10">
         <div class="p-4">
-          <Stats stat="500+" text="Happy Clients" img="/logo.png"/>
+          <Stats stat="500+" text="Happy Clients"/>
         </div>
         <div class="p-4">
-          <Stats stat="2000+" text="Counselings Done" img="/logo.png"/>
+          <Stats stat="2000+" text="Counselings Done"/>
         </div>
         <div class="p-4">
-          <Stats stat="100+" text="Awareness Sessions" img="/logo.png"/>
+          <Stats stat="100+" text="Awareness Sessions"/>
         </div>
         <div class="p-4">
-          <Stats stat="200+" text="Public Appearances" img="/logo.png"/>
+          <Stats stat="200+" text="Public Appearances"/>
         </div>
         <div class="p-4">
-          <Stats stat="200+" text="Public Appearances" img="/logo.png"/>
+          <Stats stat="200+" text="Public Appearances"/>
         </div>
         <div class="p-4">
-          <Stats stat="200+" text="Public Appearances" img="/logo.png"/>
+          <Stats stat="200+" text="Public Appearances"/>
         </div>
       </div>
       <h1 class="text-4xl text-center mt-10 mb-20">
