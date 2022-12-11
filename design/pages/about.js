@@ -7,7 +7,7 @@ export default function AboutUs() {
       <div>
         <Navbar />
         <div
-        class="text-5xl font-bold m-10 text-center 
+        class="text-5xl sm:text-3xl font-bold m-10 text-center 
       letter-spacing: -0.05em underline decoration-wavy decoration-slate-100"
       >
         <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
