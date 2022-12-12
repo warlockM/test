@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-      <div class="sm:grid sm:grid-cols-1 md:grid md:grid-cols-4 md:gap-1 bg-slate-600 text-white place-content-center">
+      <div class="sm:grid sm:grid-cols-1 md:grid md:grid-cols-4 md:gap-1 text-white bg-slate-500">
         <div class="p-4">
           <ul>
             <li>FAQ</li>
