@@ -32,11 +32,16 @@ export default function ConnectForm() {
     .then((response) => response.json())
     .then((data) => console.log(data))
     .catch((error) => console.error(error));
+
+    let content =
+      "Thank you for your interest in our services. We will contact you shortly."
+
+    document.getElementById("response").innerHTML = content;
     }
     return (
       <div>
         <Navbar />
-        <h3 class="text-center text-3xl m-16">
+        <h3 class="text-center text-3xl m-16" id="response">
           After you sumit the form, we will contact you shortly!
         </h3>
         <div class="sm:grid sm:grid-cols-1 md:grid md:grid-cols-2">
