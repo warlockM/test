@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Sidebar(){
     
     return (
-        <div class="container w-1/6 bg-slate-300 overflow-scroll max-h-screen">
+        <div class="container w-1/6 bg-slate-300 overflow-y-scroll h-screen ">
             <ul class="p-4">
               <Link href="/components/treatment/childcounseling"><li class="p-4 hover:bg-sky-700 hover:text-white">
                 Child Counseling

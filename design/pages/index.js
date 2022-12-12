@@ -18,12 +18,12 @@ export default function Home() {
       </Head>
       <Navbar />
       <div
-        class="text-5xl font-bold m-10 text-center"
-      >
+        class="text-3xl sm:text-5xl lg:text-8xl font-bold m-10 text-center">
         <span class="bg-clip-text text-slate-800">
           Empowering Minds, Transforming Lives
         </span>
       </div>
+
       <div class="flex flex-wrap items-center justify-center relative rounded-md ">
         <div class="m-10">
 
@@ -33,8 +33,8 @@ export default function Home() {
             <img class="h-48 w-full object-cover md:h-full md:w-48" src="laugh.jpg" alt="Modern building architecture"></img>
           </div>
         <div class="p-8">
-      <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats</div>
-            <p class="block mt-1 text-lg leading-tight font-medium text-black">Nurturing minds for impact</p>
+      <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Heal100 - The complete wellness solution</div>
+            <p class="text-xl md:text-3xl block mt-1 leading-tight font-medium text-black">Nurturing Minds For Future</p>
             <p class="mt-2 text-slate-500">Heal100 is an Initiative that cater to the allround development of
             young children<span class="block"></span> and address their mental
             wellness needs.</p>
@@ -61,42 +61,7 @@ export default function Home() {
         </span>
       </h1>
 
-
-
-      <div class="grid grid-cols-3 md:grid-cols-3 place-content-center m-10">
-        <div class="p-4">
-          <Stats stat="500+" text="Happy Clients"/>
-        </div>
-        <div class="p-4">
-          <Stats stat="2000+" text="Counselings Done"/>
-        </div>
-        <div class="p-4">
-          <Stats stat="100+" text="Awareness Sessions"/>
-        </div>
-        <div class="p-4">
-          <Stats stat="200+" text="Public Appearances"/>
-        </div>
-        <div class="p-4">
-          <Stats stat="200+" text="Public Appearances"/>
-        </div>
-        <div class="p-4">
-          <Stats stat="200+" text="Public Appearances"/>
-        </div>
-      </div>
-      <h1 class="text-4xl text-center mt-10 mb-20">
-        Schools in conversation with
-      </h1>
-      <div class="flex flex-wrap place-content-center space-x-8">
-        <Image src="/School.jpg" width={300} height={300} class="shrink-0" />
-        <br />
-        <Image src="/School.jpg" width={300} height={300} class="shrink-0" />
-        <br />
-        <Image src="/School.jpg" width={300} height={300} class="shrink-0" />
-        <br />
-        <Image src="/School.jpg" width={300} height={300} class="shrink-0" />
-        <br />
-      </div>
-      <div class="m-10 flex flex-wrap place-content-center">
+      <div class="m-10">
         <Review />
       </div>
       <Footer />
