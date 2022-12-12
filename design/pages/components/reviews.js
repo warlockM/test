@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
+
 export default function Review(){
     
     const [reviews, setReviews] = useState([]);
@@ -25,11 +26,10 @@ export default function Review(){
       <div>
         <h1 class="m-10 text-4xl text-center">What people say about us!</h1>
         <ul>
-          <div class="md:flex place-content-center space-x-10">
+          <div class="grid grid-cols-1 md:grid md:grid-cols-2 place-content-center">
             {reviews.map((review) => (
               <li key={review.id}>
-                <div class="max-w-screen">
-                <div class="bg-slate-100">
+                <div>
                     <img
                       src={review.fields.Image[0].thumbnails.large.url}
                       class="p-4 object-cover shrink-0"
@@ -38,7 +38,7 @@ export default function Review(){
                   <p class="text-3xl p-3 font-bold">{review.fields.Rating}★</p>
                   <p class="p-4">"{review.fields.Feedback}"</p>
                 </div>
-                </div>
+                
               </li>
             ))}
           </div>
