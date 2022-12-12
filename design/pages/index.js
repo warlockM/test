@@ -55,14 +55,14 @@ export default function Home() {
         </div>
       </div>
       
-        <h1 class="text-4xl text-center mt-10 mb-20">
+        <h1 class="text-4xl text-center mt-10 mb-10">
         Stress is not going anywhere,<span class="block">
           but we can help you manage it.
         </span>
       </h1>
 
       <div class="grid grid-cols-1 md:grid md:grid-cols-2">
-        <Stats stat="1000+" text="Sessions"/>
+        <Stats stat="1000+" text="Therapy Sessions"/>
         <Stats stat="50+" text="Public Appearances"/>
         <Stats stat="20+" text="Schools Visited"/>
         <Stats stat="1000+" text="Happy Minds"/>
