@@ -39,7 +39,7 @@ export default function ConnectForm() {
         <h3 class="text-center text-3xl m-16">
           After you sumit the form, we will contact you shortly!
         </h3>
-        <div class="flex place-content-center">
+        <div class="sm:grid sm:grid-cols-1 md:grid md:grid-cols-2">
           <form onSubmit={onSubmitHandler}>
             <div class="flex flex-col">
             <input
