@@ -25,17 +25,19 @@ export default function Review(){
       <div>
         <h1 class="m-10 text-4xl text-center">What people say about us!</h1>
         <ul>
-          <div class="md:flex place-content-center p-10 space-x-10 sm:m-4">
+          <div class="md:flex place-content-center space-x-10">
             {reviews.map((review) => (
               <li key={review.id}>
-                <div class="flex flex-wrap bg-slate-100">
+                <div class="max-w-screen">
+                <div class="bg-slate-100">
                     <img
                       src={review.fields.Image[0].thumbnails.large.url}
                       class="p-4 object-cover shrink-0"
                     ></img>
-                  <p class="text-3xl p-3">{review.fields.Name}</p>
+                  <p class="text-2xl p-3">{review.fields.Name}</p>
                   <p class="text-3xl p-3 font-bold">{review.fields.Rating}★</p>
                   <p class="p-4">"{review.fields.Feedback}"</p>
+                </div>
                 </div>
               </li>
             ))}

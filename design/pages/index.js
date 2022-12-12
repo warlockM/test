@@ -61,6 +61,14 @@ export default function Home() {
         </span>
       </h1>
 
+      <div class="grid grid-cols-1 md:grid md:grid-cols-2">
+        <Stats stat="1000+" text="Sessions"/>
+        <Stats stat="50+" text="Public Appearances"/>
+        <Stats stat="20+" text="Schools Visited"/>
+        <Stats stat="1000+" text="Happy Minds"/>
+
+      </div>
+
       <div class="m-10">
         <Review />
       </div>
