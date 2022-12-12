@@ -7,7 +7,7 @@ export default function Services() {
     return (
       <div>
         <Navbar />
-        <div class="flex flex-wrap space-x-8 mx-auto place-content-center m-20">
+        <div class="md:grid md:grid-cols-2 sm:grid sm-grid-cols-1  gap-3 gap-y-3 mx-auto place-content-center m-20">
           <Card          
             heading="Exam Stress Management"
             description="For children under the age of 18"
@@ -18,8 +18,7 @@ export default function Services() {
             description="For children and their parents"
             image="/laugh.jpg"
           />
-        </div>
-        <div class="flex flex-wrap space-x-8 mx-auto place-content-center m-20">
+        
           <Card
             heading="Wellness Sessions"
             description="For general awareness and community building"
@@ -30,8 +29,7 @@ export default function Services() {
             description="To create a more positive and healthy mindset"
             image="/laugh.jpg"
           />
-        </div>
-        <div class="flex flex-wrap space-x-8 mx-auto place-content-center m-20">
+
           <Card
             heading="Parenting Workshops"
             description="For parents to learn and understand their children better"
@@ -42,6 +40,7 @@ export default function Services() {
             description="To unlock full potential and help children find their passion"
             image="/laugh.jpg"
           />
+
           
         </div>
         <div class="flex flex-wrap space-x-8 mx-auto place-content-center m-20">
