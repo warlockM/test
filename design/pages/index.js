@@ -41,13 +41,11 @@ export default function Home() {
           </div>
         </div>
       </div>
-          <div class=" m-10 flex place-content-center space-x-3">
+          <div class=" m-10 flex place-content-center space-x-3 ">
 
             <Link href="/connect">
               <button
-                class="bg-blue-700 text-white text-sm p-4 shadow-md shadow-slate-500 font-bold 
-          tracking-wide pr-7 pl-7 rounded-lg hover:bg-blue-900"
-              >
+                class="bg-blue-700 text-white text-sm p-4 shadow-md shadow-slate-500 font-bold tracking-wide pr-7 pl-7 rounded-lg hover:bg-blue-900">
                 Upgrade Your School
               </button>
             </Link>
@@ -71,6 +69,16 @@ export default function Home() {
 
       <div class="m-10">
         <Review />
+      </div>
+      
+      <h1 class="text-4xl text-center mt-10 mb-10">
+        Have Queries?<span class="block">
+          You can reach us at:
+        </span>
+      </h1>
+      <div class="sm:grid sm:grid-cols-1 md:grid md:grid-cols-2 md:gap-1 m-10 text-2xl font-bold bg-sky-200 shadow-md">
+        <h1 class="text-center">+91 987-654-3210</h1>
+        <h1 class="text-center">heal100@gmail.com</h1>
       </div>
       <Footer />
     </div>
