@@ -71,6 +71,15 @@ export default function ConnectForm() {
               ref={schoolRef}
               required
             />
+            <label class ="m-4">Number of Kids in School </label>
+            <input
+              class="border-2 border-blue-900 p-4 m-4 rounded-lg"
+              type="text"
+              placeholder="500"
+              id="email"
+              ref={schoolRef}
+              required
+            />
             
             <button class="m-4 bg-blue-900 text-white text-sm p-4 pr-7 pl-7 shadow-lg shadow-slate-500 font-bold tracking-wide rounded-lg">
               Submit
