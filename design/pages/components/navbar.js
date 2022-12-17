@@ -1,9 +1,18 @@
 import Link from 'next/link'
 import Image from 'next/image'
 export default function Navbar() {
-	let show = false
-	function clickHandler(show) {
-		console.log(show)
+	let content
+	function clickHandler(e, n) {
+		e.preventDefault();
+		if(n == 1) {
+			content = <div>hello</div>
+			console.log(n)
+			n = 0
+			console.log(n)
+		}
+		else{
+			content = <div>bye</div>
+		}
 		}
     return (
       //   <div class="max-w-6xl mx-auto px-4">
@@ -74,7 +83,7 @@ export default function Navbar() {
             <h1>hello</h1>
           </div>
           <div class="md:hidden flex items-center">
-            <button onClick={clickHandler(true)}>
+            <button onClick={(e) => clickHandler(e, 1)}>
 			<svg class=" w-6 h-6 text-gray-500 hover:text-blue-500"
       						x-show="!showMenu"
       						fill="none"
@@ -89,7 +98,7 @@ export default function Navbar() {
             </button>
           </div>
         </div>
-		<div class = "hidden"></div>
+		{content}
       </div>
     );
 }
