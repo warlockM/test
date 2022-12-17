@@ -1,18 +1,11 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { useState } from 'react'
 export default function Navbar() {
-	let content
+	const [state, setState] = useState();
 	function clickHandler(e, n) {
 		e.preventDefault();
-		if(n == 1) {
-			content = <div>hello</div>
-			console.log(n)
-			n = 0
-			console.log(n)
-		}
-		else{
-			content = <div>bye</div>
-		}
+		setState(n);
 		}
     return (
       //   <div class="max-w-6xl mx-auto px-4">
@@ -98,7 +91,7 @@ export default function Navbar() {
             </button>
           </div>
         </div>
-		{content}
+		{state === 1 ? <h1>Hello</h1> : <h1>bye</h1>}
       </div>
     );
 }
